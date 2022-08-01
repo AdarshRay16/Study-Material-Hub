@@ -1,0 +1,35 @@
+.contacts{
+    margin-top: 3rem;
+}
+.contacts_container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 5rem;
+}
+.contacts_right > p{
+    margin: 1.6rem 0 2.5rem;
+}
+.contacts_forms{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-right: 4rem;
+}
+.form_name{
+    display: flex;
+    gap: 1.2rem;
+}
+.contacts_form input[type="text"]{
+    width: 50%;
+}
+input,
+textarea{
+    width: 100%;
+    padding: 1rem;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+}
+/* ======= Mobile View =======*/
+@media screen and (max-width: 600px) {
+    
+}
